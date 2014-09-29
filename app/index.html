@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mean, Median, Mode</title>
+</head>
+<body data-ng-app="mmmCalcApp">
+  <div data-ng-controller="mmmController">
+    <p>Enter numbers you want to use to calculate mean, median, and mode.</p>
+    <input type="text" data-ng-model="results.input" data-ng-change="calculate(results.input)">
+    <ul>
+      <li>Mean: {{results.mean}}</li>
+      <li>Median: {{results.median}}</li>
+      <li>Mode: {{results.mode}}</li>
+    </ul>
+  </div>
+</body>
+  <script src="bundle.js"></script>
+</html>

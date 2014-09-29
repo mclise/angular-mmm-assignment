@@ -1,0 +1,10 @@
+<div data-ng-controller="mmmController">
+  <p>Enter numbers you want to use to calculate mean, median, and mode.</p>
+  <input type="text" data-ng-model="results.input" data-ng-change="calculate(input)">
+  <ul>
+    <li>Numbers: {{results.input}}</li>
+    <li>Mean: {{results.mean}}</li>
+    <li>Median: {{result.median}}</li>
+    <li>Mode: {{result.mode}}</li>
+  </ul>
+</div>
