@@ -9,3 +9,7 @@ require('./mmm-controller')(mmmCalcApp);
 
 // Services
 require('./services/calc-service')(mmmCalcApp);
+
+// Directives
+require('./directives/mmm-directive')(mmmCalcApp);
+

@@ -55,6 +55,7 @@ module.exports = function(app) {
       },
 
       sortNums: function(input) {
+        console.log(input);
         var numbers = [];
         var numberStrings = input.split(" ");
         for(var i = 0; i < numberStrings.length; i++){
